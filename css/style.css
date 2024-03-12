@@ -6,6 +6,7 @@ html{
 #menu{grid-area: menu}
 main {grid-area: main}
 aside {grid-area: aside}
+label {grid-area: label}
 
 #wrapper{
     display: grid;
@@ -63,7 +64,15 @@ aside{
 .item{
     margin-right: 1em;
 }
-
+fieldset{
+    border: 0;
+}
+label{
+    display: block;
+}
+input, textarea{
+    margin-top: 1em;
+}
 @media  screen and (min-width: 40em) {
 
     #wrapper{
