@@ -8,19 +8,48 @@
     <title>selling</title>
 </head>
 <header>
-  <p>Logo PlaceHolder</p>
-  <hr>
+  <img id="menu" src="https://upload.wikimedia.org/wikipedia/en/5/52/Testcard_F.jpg" alt="">
+  <p id ="logo">Logo PlaceHolder</p>
 </header>
-
+<hr>
 <body>
-<main>
-  <div id="wrapper">
-
-    <aside>
-      <p>Placeholder</p>
-    </aside>
-  </div>
-</main>
+  <main>
+    <div id="wrapper">
+      <article>
+        <p>Upload images goes here</p>
+      </article>
+      <article>
+        <form>
+          <fieldset>
+            <label for="itemName"></label>
+            <input type="text" id="itemName" placeholder="Item Name" required>
+            <label for="itemDesc"></label>
+            <textarea id="itemDesc" placeholder="item Description" required></textarea>
+            <label for="itemPrice">£</label>
+            <input type="number" id="itemPrice" placeholder="0.00" required>
+            <label for="itemCondition-used">
+              <input type="radio" id="itemCondition-used" name="itemCondition" value="condition">Used
+            </label>
+            <label for="itemCondition-new">
+              <input type="radio" id="itemCondition-new" name="itemCondition" value="condition">New
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="itemPost-del">
+              <input type="radio" id="itemPost-del" name="itemPost" value="post">Post to address
+            </label>
+            <label for="itemPost-coll">
+              <input type="radio" id="itemPost-coll" name="itemPost" value="collect">Collect from a specified point
+            </label>
+          </fieldset>
+          <input type="submit" value="Sell">
+        </form>
+      </article>
+      <aside>
+        <p>Placeholder</p>
+      </aside>
+    </div>
+  </main>
 </body>
 <footer></footer>
 </html>
