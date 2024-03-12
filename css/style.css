@@ -2,7 +2,8 @@
 html{
     font-family: Arial, sans-serif;
 }
-
+#logo{grid-area: logo}
+#menu{grid-area: menu}
 main {grid-area: main}
 aside {grid-area: aside}
 
@@ -11,16 +12,26 @@ aside {grid-area: aside}
     grid-gap: 0;
     max-width: 1500px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 1em;
     grid-template-areas:
     "aside"
     "main";
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-areas:
+    "menu logo";
 }
 header p{
     text-align: center;
 }
 header img{
-    width: 10%;
+    width: 20%;
 }
 article{
     text-align: center;
@@ -31,16 +42,18 @@ aside{
 .home{
     border: 1px solid black;
     border-radius: 10px;
-    margin: 0 1em 0 0;
+    margin: 1em 1em 0 0;
 }
 
 @media  screen and (min-width: 40em) {
     #wrapper{
         grid-template-columns: 5fr 5fr 5fr 5fr;
         grid-template-areas:
-        "aside"
+        "       aside"
         "main main main main";
-        padding-top: 10em;
+        padding-top: 5em;
     }
-
+    .home{
+        margin: 0 1em 0 0;
+    }
 }
