@@ -1,0 +1,46 @@
+*{box-sizing: border-box}
+html{
+    font-family: Arial, sans-serif;
+}
+
+main {grid-area: main}
+aside {grid-area: aside}
+
+#wrapper{
+    display: grid;
+    grid-gap: 0;
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-areas:
+    "aside"
+    "main";
+}
+header p{
+    text-align: center;
+}
+header img{
+    width: 10%;
+}
+article{
+    text-align: center;
+}
+aside{
+    display: none;
+}
+.home{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 1em 0 0;
+}
+
+@media  screen and (min-width: 40em) {
+    #wrapper{
+        grid-template-columns: 5fr 5fr 5fr 5fr;
+        grid-template-areas:
+        "aside"
+        "main main main main";
+        padding-top: 10em;
+    }
+
+}
