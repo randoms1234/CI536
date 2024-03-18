@@ -2,11 +2,9 @@
 html{
     font-family: Arial, sans-serif;
 }
-#logo{grid-area: logo}
-#menu{grid-area: menu}
 main {grid-area: main}
-aside {grid-area: aside}
 label {grid-area: label}
+#links {grid-area: menu}
 
 #wrapper{
     display: grid;
@@ -22,23 +20,8 @@ a{
     text-decoration: none;
     color: black;
 }
-header{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-areas:
-    "menu logo";
-}
-header p{
-    text-align: center;
-}
-header img{
-    width: 20%;
-}
 article{
     text-align: center;
-}
-aside{
-    display: none;
 }
 .home{
     border: 1px solid black;
@@ -73,12 +56,56 @@ label{
 input, textarea{
     margin-top: 1em;
 }
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #links {
+    display: none;
+    text-align: center;
+    grid-gap: 0;
+    grid-template-areas:
+    "menu"
+    "menu"
+    "menu";
+}
+
+/* Style navigation menu links */
+.topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.active{
+    text-align: center;
+}
+.active img{
+    display: none;
+}
+
 @media  screen and (min-width: 40em) {
 
     #wrapper{
         grid-template-columns: 5fr 5fr 5fr 5fr;
         grid-template-areas:
-        "       aside"
         "main main main main";
         padding-top: 5em;
     }
@@ -88,5 +115,17 @@ input, textarea{
     #reviews{
         margin-top: 2em;
         margin-left: 2em;
+    }
+    .topnav #links{
+        grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+        grid-template-areas:
+        "menu menu menu menu menu";
+    }
+    .active img{
+        display: inline;
+        width: 5%;
+    }
+    .active h3{
+        display: none;
     }
 }
