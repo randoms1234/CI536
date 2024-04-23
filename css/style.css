@@ -14,7 +14,6 @@ label {grid-area: label}
     margin-right: auto;
     margin-left: 1em;
     grid-template-areas:
-    "aside"
     "main";
 }
 a{
@@ -104,6 +103,9 @@ header{
 }
 .active img{
     display: none;
+}
+#searchform{
+    text-align: center;
 }
 
 @media  screen and (min-width: 40em) {
