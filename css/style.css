@@ -6,6 +6,7 @@ html{
 main {grid-area: main}
 label {grid-area: label}
 #links {grid-area: menu}
+#usrsearch {grid-area: heading}
 
 #wrapper{
     display: grid;
@@ -107,6 +108,16 @@ header{
 #searchform{
     text-align: center;
 }
+#srchresult{
+    display: none;
+    text-align: center;
+    grid-gap: 0;
+    grid-template-areas:
+    "heading"
+    "main"
+    "main"
+    "main";
+}
 
 @media  screen and (min-width: 40em) {
 
@@ -135,4 +146,10 @@ header{
     /*.active h3{
         display: none;
     }*/
+    #srchresult{
+        grid-template-columns: 5fr 5fr 5fr;
+        grid-template-areas:
+        "heading heading heading"
+        "main main main";
+    }
 }
