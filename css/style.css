@@ -1,6 +1,7 @@
 *{box-sizing: border-box}
 html{
     font-family: Arial, sans-serif;
+    background-color: #EDFFDB;
 }
 main {grid-area: main}
 label {grid-area: label}
@@ -61,6 +62,10 @@ input, textarea{
     overflow: hidden;
     position: relative;
 }
+header{
+    background-color: #F2FFE3;
+}
+
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #links {
@@ -125,7 +130,7 @@ input, textarea{
         display: inline;
         width: 5%;
     }
-    .active h3{
+    /*.active h3{
         display: none;
-    }
+    }*/
 }
