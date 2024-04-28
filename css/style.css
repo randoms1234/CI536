@@ -116,8 +116,14 @@ header{
 #searchform{
     text-align: center;
 }
+#searchform input[type=text]{
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em 10em 0.5em 0;
+    text-align: center;
+}
 #srchresult{
-    display: grid;
+    display: none;
     padding-left: 20px;
     padding-bottom: 10px;
     text-align: center;
@@ -135,6 +141,12 @@ header{
         grid-template-columns: 5fr 5fr 5fr 5fr;
         grid-template-areas:
         "main main main main";
+        padding-top: 5em;
+    }
+    #wrapper.sellwrap{
+        grid-template-columns: 5fr 5fr 5fr;
+        grid-template-areas:
+        "main main main";
         padding-top: 5em;
     }
     .home{
@@ -165,4 +177,8 @@ header{
         "heading heading heading"
         "main main main";
     }
+    #searchform input[type=text]{
+        padding: 0.5em 20em 0.5em 0;
+    }
+
 }
