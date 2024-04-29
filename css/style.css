@@ -10,6 +10,8 @@ main {grid-area: main}
 label {grid-area: label}
 #links {grid-area: menu}
 #usrsearch {grid-area: heading}
+#sellimg {grid-area: sellimg}
+#item {grid-area: item}
 
 #wrapper{
     display: grid;
@@ -20,6 +22,13 @@ label {grid-area: label}
     grid-template-areas:
     "main";
 }
+#wrapper.sellwrap{
+    padding: 3.5em 1em 0 0;
+    grid-template-areas:
+    "main"
+    "sellimg";
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -29,13 +38,17 @@ article{
 }
 .home{
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 1em 1em 0 0;
     padding-bottom: 1em;
     background-color: #F1EEDC;
 }
 .home:hover{
     background-color: #E5DDC5;
+}
+#account.home{
+    padding-bottom: 3.2em;
+    margin-bottom: 1em;
 }
 #bigPrevImage{
     width: 60%;
@@ -50,11 +63,16 @@ article{
 #reviews h3{
     padding-top: 1em;
 }
-#recommendations{
-    border: 1px solid black;
-}
-.item{
+
+#item{
+    display: none;
     margin-right: 1em;
+}
+.itmdesc{
+    padding-right: 0.5em;
+}
+#item.home:hover{
+    background-color: #F1EEDC;
 }
 fieldset{
     border: 0;
@@ -72,6 +90,7 @@ input, textarea{
 }
 header{
     background-color: #BED7DC;
+    border-bottom: black 1px solid;
 }
 
 
@@ -92,21 +111,30 @@ header{
     text-decoration: none;
     font-size: 17px;
     display: block;
+    border-bottom: 1px solid black;
+
 }
 
 /* Style the hamburger menu */
-.topnav a.icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
     background-color: #E5DDC5;
     color: black;
 }
+.topnav a.icon {
+    border: 0;
+    border-radius: 0;
+    background-color: #BED7DC;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a.icon:hover{
+    background-color: #B3C8CF;
+}
+
 .active{
     text-align: center;
 }
@@ -146,23 +174,42 @@ header{
     #wrapper.sellwrap{
         grid-template-columns: 5fr 5fr 5fr;
         grid-template-areas:
-        "main main main";
+        "sellimg main item";
         padding-top: 5em;
+    }
+
+    #item{
+        display: block;
     }
     .home{
         margin: 0 1em 0 0;
     }
-    #reviews{
-        margin-top: 2em;
-        margin-left: 2em;
+    #account.home{
+        margin-bottom: 0;
+    }
+    #reviews.home:hover{
+        background-color: #F1EEDC;
+    }
+    #recommend.home:hover{
+        background-color: #F1EEDC;
     }
     .topnav #links{
         grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
         grid-template-areas:
         "menu menu menu menu menu";
     }
+    .topnav a{
+        margin-bottom: 0.5em;
+        border-bottom: 0;
+    }
     .topnav a.icon{
         display: none;
+    }
+    .topnav a:hover {
+        border: 0.5px solid black;
+        border-radius: 5px;
+        background-color: #E5DDC5;
+        color: black;
     }
     .active img{
         display: inline;
