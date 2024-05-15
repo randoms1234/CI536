@@ -14,11 +14,11 @@
       <h3>MarketPlace</h3>
     </div>
     <div id="links">
-      <a href="index.html">Home</a>
-      <a href="search.html">Buying</a>
-      <a href="selling.html">Selling</a>
-      <a href="login.html">Login</a>
-      <a href="about.html">About</a>
+      <a href="index.php">Home</a>
+      <a href="search.php">Buying</a>
+      <a href="selling.php">Selling</a>
+      <a href="login.php">Login</a>
+      <a href="about.php">About</a>
     </div>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>

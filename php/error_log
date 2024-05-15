@@ -1,0 +1,30 @@
+[14-May-2024 19:35:10 UTC] PHP Notice:  Undefined variable: newPassword in /home/tw8dycdlza8z/public_html/php/login_process.php on line 10
+[14-May-2024 19:56:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/tw8dycdlza8z/public_html/php/login_process.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tw8dycdlza8z/public_html/php/login_process.php on line 11
+[14-May-2024 19:58:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/tw8dycdlza8z/public_html/php/login_process.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tw8dycdlza8z/public_html/php/login_process.php on line 11
+[14-May-2024 20:03:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/tw8dycdlza8z/public_html/php/login_process.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/tw8dycdlza8z/public_html/php/login_process.php on line 11
+[14-May-2024 20:04:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/tw8dycdlza8z/public_html/php/login_process.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tw8dycdlza8z/public_html/php/login_process.php on line 24
+[14-May-2024 20:06:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/tw8dycdlza8z/public_html/php/login_process.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tw8dycdlza8z/public_html/php/login_process.php on line 24
+[14-May-2024 20:08:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/tw8dycdlza8z/public_html/php/login_process.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/tw8dycdlza8z/public_html/php/login_process.php on line 24
+[14-May-2024 20:42:46 UTC] PHP Notice:  Undefined variable: stmt in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 50
+[14-May-2024 20:42:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/tw8dycdlza8z/public_html/php/signup_process.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 50

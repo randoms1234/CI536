@@ -16,11 +16,11 @@
       <!-- <img  src="https://upload.wikimedia.org/wikipedia/en/5/52/Testcard_F.jpg" alt="">-->
     </div>
     <div id="links">
-      <a href="index.html">Home</a>
-      <a href="selling.html">Selling</a>
-      <a href="about.html">About</a>
-      <a href="login.html">Login</a>
-      <a href="account.html">Account</a>
+      <a href="index.php">Home</a>
+      <a href="selling.php">Selling</a>
+      <a href="about.php">About</a>
+      <a href="login.php">Login</a>
+      <a href="account.php">Account</a>
     </div>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>

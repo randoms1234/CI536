@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,11 +19,11 @@
                <!-- <img  src="https://upload.wikimedia.org/wikipedia/en/5/52/Testcard_F.jpg" alt="">-->
             </div>
             <div id="links">
-                <a href="search.html">Buying</a>
-                <a href="selling.html">Selling</a>
-                <a href="about.html">About</a>
-                <a href="login.html">Login</a>
-                <a href="account.html">Account</a>
+                <a href="search.php">Buying</a>
+                <a href="selling.php">Selling</a>
+                <a href="about.php">About</a>
+                <a href="login.php">Login</a>
+                <a href="account.php">Account</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -59,31 +63,31 @@
                 </article>
             </div>-->
             <div id="wrapper"><!-- display to none when search result active-->
-                <a class="home" href="search.html">
+                <a class="home" href="search.php">
                     <article>
                         <h2>Buying</h2>
                         <p>Click Here to search for </p>
                         <p>your next treasure!</p>
                     </article>
                 </a>
-                <a class="home" href="selling.html">
+                <a class="home" href="selling.php">
                     <article>
-                        <h2>selling</h2>
+                        <h2>Selling</h2>
                         <p>Wanna Sell your stuff?</p>
                         <p>Click here to begin</p>
                     </article>
                 </a>
-                <a class="home" href="about.html">
+                <a class="home" href="about.php">
                     <article >
-                        <h2>about</h2>
+                        <h2>About</h2>
                         <p>FAQs</p>
                         <p>Contact us</p>
 
                     </article>
                 </a>
-                <a class="home" id="account" href="account.html" >
+                <a class="home" id="account" href="account.php" >
                     <article>
-                        <h2>account</h2>
+                        <h2>Account</h2>
                         <p>Your Account Details</p>
                     </article>
                 </a>
