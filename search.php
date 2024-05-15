@@ -1,3 +1,4 @@
+<?php include 'db_connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +31,7 @@
 <body>
 <main>
   <div id="searchform">
-    <form>
+    <form method="GET" action="search.php">
       <fieldset>
         <label for="search">Search for an item</label>
         <input id="search" type="text">
@@ -39,25 +40,26 @@
     </form>
   </div>
   <div id="srchresult">
-    <h3 id="usrsearch">Search result(placeholder)</h3><!--what the user typed in goes here-->
-    <article class="home">
-      <h2>item name</h2>
-      <p>Item description</p>
-      <p>item price</p>
-      <button>BUY</button>
-    </article>
-    <article class="home">
-      <h2>item name</h2>
-      <p>Item description</p>
-      <p>item price</p>
-      <button>BUY</button>
-    </article>
-    <article class="home">
-      <h2>item name</h2>
-      <p>Item description</p>
-      <p>item price</p>
-      <button>BUY</button>
-    </article>
+      <?php
+      if (isset($_GET['search'])) {
+          $searchTerm = $conn->real_escape_string($_GET['search']);
+          $sql = "SELECT * FROM Items WHERE title LIKE '%$searchTerm%' OR description LIKE '%$searchTerm%'";
+          $result = $conn->query($sql);
+
+          if ($result->num_rows > 0) {
+              while($row = $result->fetch_assoc()) {
+                  echo "<article class='home'>
+                            <h2>" . $row['title'] . "</h2>
+                            <p>" . $row['description'] . "</p>
+                            <p>£" . $row['price'] . "</p>
+                            <button>BUY</button>
+                          </article>";
+              }
+          } else {
+              echo "<h3>No results found for '$searchTerm'</h3>";
+          }
+      }
+      ?>
   </div>
 </main>
 </body>

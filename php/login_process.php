@@ -3,9 +3,9 @@ session_start();
 
 // Database configuration
 $servername = "localhost"; // Replace with your MySQL server hostname
-$username = "jay123"; // Replace with your MySQL username
-$password = "QGZfzUBDjSkJ"; // Replace with your MySQL password
-$database = "database"; // Replace with the name of your MySQL database
+$username = "zr137_groupproject"; // Replace with your MySQL username
+$password = "7KLkpm9RJ8pA"; // Replace with your MySQL password
+$database = "zr137_group"; // Replace with the name of your MySQL database
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -15,43 +15,39 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Retrieve JSON data from the request
 $data = json_decode(file_get_contents('php://input'), true);
-
 $username = $data["username"];
 $password = $data["password"];
 
-// Prepare and execute the SQL statement to fetch user data
-$stmt = $conn->prepare('SELECT id, password FROM users WHERE username = ? OR email = ?');
-$stmt->bind_param('ss', $username, $username);
+// Prepare the SQL query with parameter binding
+$stmt = $conn->prepare("SELECT password FROM users WHERE username = ?");
+$stmt->bind_param("s", $username);
 $stmt->execute();
-$stmt->store_result();
 
-if ($stmt->num_rows > 0) {
-    $stmt->bind_result($userId, $hashedPassword);
-    $stmt->fetch();
-    
-    // Verify the password
-    if (password_verify($password, $hashedPassword)) {
-        // Password is correct, start a session
+// Get the result
+$result = $stmt->get_result();
+
+// Check if password record exists
+if ($row = $result->fetch_assoc()) {
+    $storedPassword = $row['password'];
+
+    // Hash the provided password for comparison
+    $hashedPassword = md5($password);
+
+    // Check if the hashed password matches the stored password
+    if ($hashedPassword === $storedPassword) {
         $_SESSION['username'] = $username;
-        $_SESSION['user_id'] = $userId;
-
-        $response = array("success" => true, "message" => "Login successful!");
+        $response = array("success" => true);
     } else {
-        // Incorrect password
-        $response = array("success" => false, "message" => "Incorrect password.");
+        $response = array("success" => false, "message" => "Username or password incorrect");
     }
 } else {
-    // No user found with the given username or email
-    $response = array("success" => false, "message" => "User not found.");
+    $response = array("success" => false, "message" => "Fatal error occurred");
 }
 
 $stmt->close();
 $conn->close();
 
-// Return the JSON response
 header("Content-Type: application/json");
 echo json_encode($response);
 ?>
-
