@@ -28,6 +28,10 @@ label {grid-area: label}
     "main"
     "sellimg";
 }
+#wrapper.login{
+    display: block;
+   text-align: center;
+}
 
 a{
     text-decoration: none;
@@ -162,6 +166,13 @@ header{
     "main"
     "main";
 }
+#login-signup{
+    margin-right: 25em;
+    margin-left: 25em;
+}
+#login-signup.home:hover{
+    background-color: #F1EEDC;
+}
 
 @media  screen and (min-width: 40em) {
 
@@ -171,11 +182,14 @@ header{
         "main main main main";
         padding-top: 5em;
     }
-    #wrapper.sellwrap{
+   /* #wrapper.sellwrap{
         grid-template-columns: 5fr 5fr 5fr;
         grid-template-areas:
         "sellimg main item";
         padding-top: 5em;
+    }*/
+    #wrapper.login{
+        grid-template-columns: 5fr;
     }
 
     #item{

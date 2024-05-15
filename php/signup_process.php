@@ -16,6 +16,9 @@ if ($conn->connect_error) {
 }
 
 $data = json_decode(file_get_contents('php://input'), true);
+$firstName = $data["first_name"];
+$lastName = $data["last_name"];
+$fullName = $firstName . ' ' . $lastName;
 $username = $data["username"];
 $email = $data['email'];
 $password = $data["password"];
@@ -26,28 +29,26 @@ if (!checkPassword($password)) {
         "success" => false,
         "message" => "Password must be 8 or more characters long and contain at least 1 uppercase letter, 1 lowercase letter, and 1 digit"
     );
-    // Return the JSON response
     header("Content-Type: application/json");
     echo json_encode($response);
-    exit(); // Exit the script after sending the response
+    exit();
 }
 
 // Check if username or email already exists
-$checkUserQuery = "SELECT * FROM users WHERE username='$username'";
+$checkUserQuery = "SELECT * FROM users WHERE username='$username' OR email='$email'";
 $result = $conn->query($checkUserQuery);
 if ($result->num_rows > 0) {
-    $response = array("success" => false, "message" => "Username already exists");
-    // Return the JSON response
+    $response = array("success" => false, "message" => "Username or email already exists");
     header("Content-Type: application/json");
     echo json_encode($response);
-    exit(); // Exit the script after sending the response
+    exit();
 }
 
-// Hash the password
-$hashedPassword = md5($password); // You should use stronger hashing algorithms like bcrypt or Argon2
+// Hash the password using bcrypt
+$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
 // Insert new user into database
-$insertQuery = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$hashedPassword')";
+$insertQuery = "INSERT INTO users (full_name, username, email, password) VALUES ('$fullName', '$username', '$email', '$hashedPassword')";
 if ($conn->query($insertQuery) === TRUE) {
     $_SESSION['username'] = $username;
     $response = array("success" => true, "message" => "Account successfully created!");
@@ -69,4 +70,5 @@ function checkPassword($password) {
     return strlen($password) >= 8 && $uppercase && $lowercase && $number;
 }
 ?>
+
 

@@ -1,52 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!--character encoding for the document (Unicode)-->
-  <meta charset="utf-8">
-  <!--web page title-->
-  <title> RIBLO </title>
-  <!--link to ribnormalize.css-->
-  <link href="css/normalize.css" rel="stylesheet">
-  <!--link to stylesheet-->
-  <link href="css/stylesheet.css" rel="stylesheet">
-  <!--link to google font-->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@500&family=Inconsolata:wght@200;300&family=Raleway&display=swap"
-    rel="stylesheet">
-  <!--hamburger icon-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!--viewport-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/index.js"></script>
+    <title>login</title>
 </head>
+<header>
+    <div class="topnav">
+        <div class="active">
+            <h3>MarketPlace</h3>
+        </div>
+        <div id="links">
+            <a href="index.php">Home</a>
+            <a href="search.php">Buying</a>
+            <a href="selling.php">Selling</a>
+            <a href="account.php">Account</a>
+            <a href="about.php">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
 
 <body>
-    <div class="container">
-        <h2>Sign Up</h2>
-        <form id="signup-form">
-            <div class="input-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+    <div id="wrapper" class="login">
+        <div class="home" id="login-signup">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <div class="input-group">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                </div>
+                <div class="input-group">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+            <div id="already">
+                <label>Already have an account? <a href="login.html">Log in here</a>.</label>
             </div>
-            <div class="input-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="input-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="input-group">
-                <label for="confirm_password">Confirm Password:</label>
-                <input type="password" id="confirm_password" name="confirm_password" required>
-            </div>
-            <button type="submit" class="btn">Sign Up</button>
-        </form>
-<div id="already">
-        <label>Already have an account? <a href="login.html">Log in here</a>.</label></div>
-        <p id="status"></p>
+            <p id="status"></p>
+        </div>
     </div>
     <script src="js/signUp.js"></script>
 </body>
-
 </html>

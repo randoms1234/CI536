@@ -31,14 +31,17 @@ session_start();
 
 <body>
 <main>
-  <div id="wrapper">
-      <?php
-      if (isset($_SESSION['login_input'])) {
-          echo '<a href="php/logout.php">Sign out</a>';
-      } else {
-          echo '<a href="login.html">Sign up | Login</a>';
-      }
-      ?>
+  <div id="wrapper" class="login">
+        <div class="home" id="login-signup">
+          <?php
+          if (isset($_SESSION['login_input'])) {
+              echo '<h1><a href="php/logout.php">Sign out</a></h1>';
+          } else {
+              echo '<h1><a href="login.html">Sign up | Login</a></h1>';
+          }
+          ?>
+        </div>
+
   </div>
 </main>
 </body>
