@@ -3,9 +3,9 @@ session_start();
 
 // Database configuration
 $servername = "localhost"; // Replace with your MySQL server hostname
-$username = "jay123"; // Replace with your MySQL username
-$password = "QGZfzUBDjSkJ"; // Replace with your MySQL password
-$database = "database"; // Replace with the name of your MySQL database
+$username = "z137_groupproject"; // Replace with your MySQL username
+$password = "7KLkpm9RJ8pA"; // Replace with your MySQL password
+$database = "zr137_group"; // Replace with the name of your MySQL database
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -16,9 +16,6 @@ if ($conn->connect_error) {
 }
 
 $data = json_decode(file_get_contents('php://input'), true);
-$firstName = $data["first_name"];
-$lastName = $data["last_name"];
-$fullName = $firstName . ' ' . $lastName;
 $username = $data["username"];
 $email = $data['email'];
 $password = $data["password"];
@@ -29,26 +26,28 @@ if (!checkPassword($password)) {
         "success" => false,
         "message" => "Password must be 8 or more characters long and contain at least 1 uppercase letter, 1 lowercase letter, and 1 digit"
     );
+    // Return the JSON response
     header("Content-Type: application/json");
     echo json_encode($response);
-    exit();
+    exit(); // Exit the script after sending the response
 }
 
 // Check if username or email already exists
-$checkUserQuery = "SELECT * FROM users WHERE username='$username' OR email='$email'";
+$checkUserQuery = "SELECT * FROM users WHERE username='$username'";
 $result = $conn->query($checkUserQuery);
 if ($result->num_rows > 0) {
-    $response = array("success" => false, "message" => "Username or email already exists");
+    $response = array("success" => false, "message" => "Username already exists");
+    // Return the JSON response
     header("Content-Type: application/json");
     echo json_encode($response);
-    exit();
+    exit(); // Exit the script after sending the response
 }
 
-// Hash the password using bcrypt
-$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+// Hash the password
+$hashedPassword = md5($password); // You should use stronger hashing algorithms like bcrypt or Argon2
 
 // Insert new user into database
-$insertQuery = "INSERT INTO users (full_name, username, email, password) VALUES ('$fullName', '$username', '$email', '$hashedPassword')";
+$insertQuery = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$hashedPassword')";
 if ($conn->query($insertQuery) === TRUE) {
     $_SESSION['username'] = $username;
     $response = array("success" => true, "message" => "Account successfully created!");
@@ -70,5 +69,4 @@ function checkPassword($password) {
     return strlen($password) >= 8 && $uppercase && $lowercase && $number;
 }
 ?>
-
 

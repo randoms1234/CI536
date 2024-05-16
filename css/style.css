@@ -91,6 +91,8 @@ input, textarea{
 .topnav {
     overflow: hidden;
     position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 header{
     background-color: #BED7DC;
