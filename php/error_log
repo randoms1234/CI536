@@ -1,0 +1,213 @@
+[15-May-2024 15:51:28 UTC] PHP Notice:  Undefined index: first_name in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 19
+[15-May-2024 15:51:28 UTC] PHP Notice:  Undefined index: last_name in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 20
+[15-May-2024 15:54:27 UTC] PHP Notice:  Undefined index: first_name in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 19
+[15-May-2024 15:54:27 UTC] PHP Notice:  Undefined index: last_name in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 20
+[16-May-2024 16:23:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:23:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:24:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 16:28:01 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:01 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:02 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:02 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:03 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:03 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:03 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:03 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:03 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:03 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:04 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:28:05 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:28:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:29:25 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:29:25 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:29:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:30:09 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:09 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:10 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:10 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:11 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:12 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:12 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:12 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:12 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:12 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:12 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:30:12 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:30:12 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:30:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 16:31:39 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:31:40 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:31:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:57:10 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:57:10 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:57:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:58:12 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:58:12 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:58:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 16:58:41 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 16:58:41 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 16:58:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 17:09:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:09:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:09:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:09:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:09:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:09:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:09:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:09:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:09:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/zr137/public_html/group_project/groupies/php/login_process.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/php/login_process.php on line 26
+[16-May-2024 17:10:41 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 17:10:41 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 17:10:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 17:10:42 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 17:10:42 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 17:10:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 17:10:42 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 17:10:42 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 17:10:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 17:10:42 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 17:10:42 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 17:10:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 42
+[16-May-2024 17:14:27 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 17:14:27 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 17:14:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 21:01:48 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 21:01:48 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 21:01:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 63
+[16-May-2024 21:50:32 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 21:50:32 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 21:50:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 32
+[16-May-2024 21:50:35 UTC] PHP Warning:  Undefined array key "first_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 19
+[16-May-2024 21:50:35 UTC] PHP Warning:  Undefined array key "last_name" in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 20
+[16-May-2024 21:50:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/php/signup_process.php:19) in /home/zr137/public_html/group_project/groupies/php/signup_process.php on line 32

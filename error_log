@@ -1,0 +1,105 @@
+[16-May-2024 17:26:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zr137/public_html/group_project/groupies/selling.php on line 29
+[16-May-2024 17:26:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zr137/public_html/group_project/groupies/selling.php on line 30
+[16-May-2024 17:26:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/selling.php:29) in /home/zr137/public_html/group_project/groupies/selling.php on line 62
+[16-May-2024 17:26:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zr137/public_html/group_project/groupies/selling.php on line 29
+[16-May-2024 17:26:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zr137/public_html/group_project/groupies/selling.php on line 30
+[16-May-2024 17:26:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/selling.php:29) in /home/zr137/public_html/group_project/groupies/selling.php on line 62
+[16-May-2024 17:26:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zr137/public_html/group_project/groupies/selling.php on line 29
+[16-May-2024 17:26:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zr137/public_html/group_project/groupies/selling.php on line 30
+[16-May-2024 17:26:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/selling.php:29) in /home/zr137/public_html/group_project/groupies/selling.php on line 62
+[16-May-2024 17:27:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zr137/public_html/group_project/groupies/selling.php on line 29
+[16-May-2024 17:27:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zr137/public_html/group_project/groupies/selling.php on line 30
+[16-May-2024 17:27:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zr137/public_html/group_project/groupies/selling.php:29) in /home/zr137/public_html/group_project/groupies/selling.php on line 62
+[16-May-2024 17:31:23 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/selling.php on line 15
+[16-May-2024 17:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/selling.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/selling.php on line 15
+[16-May-2024 17:31:58 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/selling.php on line 15
+[16-May-2024 17:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/selling.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/selling.php on line 15
+[16-May-2024 18:25:44 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:25:44 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:25:44 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:25:44 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:25:44 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:27:04 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:27:05 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:27:05 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:27:05 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:27:05 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:31:53 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:31:54 UTC] SQL Error: Unknown column 'id' in 'where clause'
+[16-May-2024 18:34:59 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:35:01 UTC] SQL Error: Unknown column 'id' in 'where clause'
+[16-May-2024 18:36:24 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:37:20 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:37:20 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:37:20 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:37:20 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:37:20 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:41:16 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:43:22 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:43:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:43:50 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:43:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:44:07 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:44:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:44:07 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:44:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:44:08 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:44:23 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:44:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:45:17 UTC] PHP Warning:  Undefined variable $conn in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:45:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/zr137/public_html/group_project/groupies/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/zr137/public_html/group_project/groupies/index.php on line 46
+[16-May-2024 18:45:42 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:45:42 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:45:42 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:45:42 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 18:45:42 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:43:56 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:43:56 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:43:56 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:43:56 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:43:56 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:58:03 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:58:03 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:58:03 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:58:03 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 19:58:03 UTC] PHP Warning:  Undefined array key "id" in /home/zr137/public_html/group_project/groupies/index.php on line 56
+[16-May-2024 21:57:29 UTC] PHP Warning:  move_uploaded_file(./uploads/25dda6e97d6d3240919866a9f2ecada9.png): Failed to open stream: No such file or directory in /home/zr137/public_html/group_project/groupies/selling.php on line 43
+[16-May-2024 21:57:29 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpK17jfw&quot; to &quot;./uploads/25dda6e97d6d3240919866a9f2ecada9.png&quot; in /home/zr137/public_html/group_project/groupies/selling.php on line 43
+[16-May-2024 21:58:16 UTC] PHP Warning:  move_uploaded_file(./uploads/d3e8c370fcfd9ea864cb8659a75da893.png): Failed to open stream: No such file or directory in /home/zr137/public_html/group_project/groupies/selling.php on line 43
+[16-May-2024 21:58:16 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpG7BDWs&quot; to &quot;./uploads/d3e8c370fcfd9ea864cb8659a75da893.png&quot; in /home/zr137/public_html/group_project/groupies/selling.php on line 43
+[16-May-2024 22:07:29 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ", ", expecting "]" in /home/zr137/public_html/group_project/groupies/selling.php on line 31
+[16-May-2024 22:07:31 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ", ", expecting "]" in /home/zr137/public_html/group_project/groupies/selling.php on line 31
+[16-May-2024 22:07:36 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ", ", expecting "]" in /home/zr137/public_html/group_project/groupies/selling.php on line 31
+[16-May-2024 22:07:39 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ", ", expecting "]" in /home/zr137/public_html/group_project/groupies/selling.php on line 31
+[16-May-2024 22:08:28 UTC] PHP Warning:  move_uploaded_file(uploads/bicepcurl.png): Failed to open stream: No such file or directory in /home/zr137/public_html/group_project/groupies/selling.php on line 34
+[16-May-2024 22:08:28 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpYXLj7B&quot; to &quot;uploads/bicepcurl.png&quot; in /home/zr137/public_html/group_project/groupies/selling.php on line 34
+[16-May-2024 22:09:34 UTC] PHP Warning:  move_uploaded_file(uploads/bicepcurl.png): Failed to open stream: No such file or directory in /home/zr137/public_html/group_project/groupies/selling.php on line 34
+[16-May-2024 22:09:34 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpJve8PW&quot; to &quot;uploads/bicepcurl.png&quot; in /home/zr137/public_html/group_project/groupies/selling.php on line 34

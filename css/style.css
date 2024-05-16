@@ -1,12 +1,17 @@
 *{box-sizing: border-box}
 html{
     font-family: Arial, sans-serif;
+    background-color: #B3C8CF;
 }
-#logo{grid-area: logo}
-#menu{grid-area: menu}
+body{
+    margin: 0 0 0 0;
+}
 main {grid-area: main}
-aside {grid-area: aside}
 label {grid-area: label}
+#links {grid-area: menu}
+#usrsearch {grid-area: heading}
+#sellimg {grid-area: sellimg}
+#item {grid-area: item}
 
 #wrapper{
     display: grid;
@@ -15,35 +20,40 @@ label {grid-area: label}
     margin-right: auto;
     margin-left: 1em;
     grid-template-areas:
-    "aside"
     "main";
 }
+#wrapper.accwrap{
+    padding: 3.5em 1em 0 0;
+    grid-template-areas:
+    "main"
+    "sellimg";
+}
+#wrapper.login{
+    display: block;
+   text-align: center;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
-header{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-areas:
-    "menu logo";
-}
-header p{
-    text-align: center;
-}
-header img{
-    width: 20%;
-}
 article{
     text-align: center;
 }
-aside{
-    display: none;
-}
 .home{
     border: 1px solid black;
-    border-radius: 10px;
-    margin: 1em 1em 0 0;
+    border-radius: 5px;
+    margin-left: 300px;
+    padding-bottom: 1em;
+    background-color: #F1EEDC;
+    
+}
+.home:hover{
+    background-color: #E5DDC5;
+}
+#account.home{
+    padding-bottom: 3.2em;
+    margin-bottom: 1em;
 }
 #bigPrevImage{
     width: 60%;
@@ -58,11 +68,16 @@ aside{
 #reviews h3{
     padding-top: 1em;
 }
-#recommendations{
-    border: 1px solid black;
-}
-.item{
+
+#item{
+    display: none;
     margin-right: 1em;
+}
+.itmdesc{
+    padding-right: 0.5em;
+}
+#item.home:hover{
+    background-color: #F1EEDC;
 }
 fieldset{
     border: 0;
@@ -73,20 +88,164 @@ label{
 input, textarea{
     margin-top: 1em;
 }
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+header{
+    background-color: #BED7DC;
+    border-bottom: black 1px solid;
+}
+
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #links {
+    display: none;
+    text-align: center;
+    grid-gap: 0;
+    grid-template-areas:
+    "menu"
+    "menu"
+    "menu";
+}
+
+/* Style navigation menu links */
+.topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    border-bottom: 1px solid black;
+
+}
+
+/* Style the hamburger menu */
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #E5DDC5;
+    color: black;
+}
+.topnav a.icon {
+    border: 0;
+    border-radius: 0;
+    background-color: #BED7DC;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a.icon:hover{
+    background-color: #B3C8CF;
+}
+
+.active{
+    text-align: center;
+}
+.active img{
+    display: none;
+}
+#searchform{
+    text-align: center;
+}
+#searchform input[type=text]{
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em 10em 0.5em 0;
+    text-align: center;
+}
+#srchresult{
+    display: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    grid-gap: 0;
+    grid-template-areas:
+    "heading"
+    "main"
+    "main"
+    "main";
+}
+#login-signup{
+    margin-right: 25em;
+    margin-left: 25em;
+}
+#login-signup.home:hover{
+    background-color: #F1EEDC;
+}
+
 @media  screen and (min-width: 40em) {
 
     #wrapper{
-        grid-template-columns: 5fr 5fr 5fr 5fr;
+        grid-template-columns: 10fr 10fr;
         grid-template-areas:
-        "       aside"
-        "main main main main";
+        "main main";
         padding-top: 5em;
     }
-    .home{
-        margin: 0 1em 0 0;
+   /* #wrapper.sellwrap{
+        grid-template-columns: 5fr 5fr 5fr;
+        grid-template-areas:
+        "sellimg main item";
+        padding-top: 5em;
+    }*/
+    #wrapper.login{
+        grid-template-columns: 5fr;
     }
-    #reviews{
-        margin-top: 2em;
-        margin-left: 2em;
+
+    #item{
+        display: block;
     }
+    
+    #wrapper .home{
+        margin-left: 350px;
+        width: 100%;
+    }
+    
+    #account.home{
+        margin-bottom: 0;
+    }
+    #reviews.home:hover{
+        background-color: #F1EEDC;
+    }
+    #recommend.home:hover{
+        background-color: #F1EEDC;
+    }
+    .topnav #links{
+        grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+        grid-template-areas:
+        "menu menu menu menu menu";
+    }
+    .topnav a{
+        margin-bottom: 0.5em;
+        border-bottom: 0;
+    }
+    .topnav a.icon{
+        display: none;
+    }
+    .topnav a:hover {
+        border: 0.5px solid black;
+        border-radius: 5px;
+        background-color: #E5DDC5;
+        color: black;
+    }
+    .active img{
+        display: inline;
+        width: 5%;
+    }
+    /*.active h3{
+        display: none;
+    }*/
+    #srchresult{
+        grid-template-columns: 5fr 5fr 5fr;
+        grid-template-areas:
+        "heading heading heading"
+        "main main main";
+    }
+    #searchform input[type=text]{
+        padding: 0.5em 20em 0.5em 0;
+    }
+
 }
