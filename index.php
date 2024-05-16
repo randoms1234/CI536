@@ -15,7 +15,6 @@
         <div class="topnav">
             <div class="active">
                 <h3>Market Place</h3>
-               <!-- <img  src="https://upload.wikimedia.org/wikipedia/en/5/52/Testcard_F.jpg" alt="">-->
             </div>
             <div id="links">
                 <a href="search.php">Buying</a>
@@ -96,6 +95,3 @@
     <footer>
     </footer>
 </html>
-<!--TODO: add sidebar menu
- implement Login Page
- >

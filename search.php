@@ -1,4 +1,5 @@
-<?php include 'db_connect.php'; ?>
+<?php
+include 'db_connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,6 @@
   <div class="topnav">
     <div class="active">
       <h3>Market Place</h3>
-      <!-- <img  src="https://upload.wikimedia.org/wikipedia/en/5/52/Testcard_F.jpg" alt="">-->
     </div>
     <div id="links">
       <a href="index.php">Home</a>
@@ -42,9 +42,9 @@
   <div id="srchresult">
       <?php
       if (isset($_GET['search'])) {
-          $searchTerm = $conn->real_escape_string($_GET['search']);
+          $searchTerm = $conne->real_escape_string($_GET['search']);
           $sql = "SELECT * FROM Items WHERE title LIKE '%$searchTerm%' OR description LIKE '%$searchTerm%'";
-          $result = $conn->query($sql);
+          $result = $conne->query($sql);
 
           if ($result->num_rows > 0) {
               while($row = $result->fetch_assoc()) {

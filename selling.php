@@ -28,7 +28,7 @@
 </header>
 <body>
   <main>
-    <div id="wrapper" class="sellwrap">
+    <div id="wrapper" class="login">
       <article id="sellimg">
         <p>Upload images goes here</p>
       </article>
@@ -47,17 +47,17 @@
     </div>
       <?php
       if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-          $itemName = $conn->real_escape_string($_POST['itemName']);
-          $itemDesc = $conn->real_escape_string($_POST['itemDesc']);
-          $itemPrice = $conn->real_escape_string($_POST['itemPrice']);
+          $itemName = $conne->real_escape_string($_POST['itemName']);
+          $itemDesc = $conne->real_escape_string($_POST['itemDesc']);
+          $itemPrice = $conne->real_escape_string($_POST['itemPrice']);
           $userId = 1; // Replace with actual user ID from session or authentication mechanism
 
           $sql = "INSERT INTO Items (user_id, title, description, price) VALUES ('$userId', '$itemName', '$itemDesc', '$itemPrice')";
 
-          if ($conn->query($sql) === TRUE) {
+          if ($conne->query($sql) === TRUE) {
               echo "<p>Item listed successfully!</p>";
           } else {
-              echo "<p>Error: " . $sql . "<br>" . $conn->error . "</p>";
+              echo "<p>Error: " . $sql . "<br>" . $conne->error . "</p>";
           }
       }
       ?>

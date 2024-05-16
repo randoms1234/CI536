@@ -22,7 +22,7 @@ label {grid-area: label}
     grid-template-areas:
     "main";
 }
-#wrapper.sellwrap{
+#wrapper.accwrap{
     padding: 3.5em 1em 0 0;
     grid-template-areas:
     "main"
