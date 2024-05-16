@@ -1,3 +1,4 @@
+<?php include 'db_connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +28,7 @@
 </header>
 <body>
   <main>
-    <div id="wrapper" class="sellwrap">
+    <div id="wrapper" class="login">
       <article id="sellimg">
         <p>Upload images goes here</p>
       </article>
@@ -39,33 +40,27 @@
             <label for="itemDesc"></label>
             <textarea id="itemDesc" placeholder="item Description" required></textarea>
             <label for="itemPrice">£ <input type="number" id="itemPrice" placeholder="0.00" required></label>
-            <label for="itemCondition-used">
-              <input type="radio" id="itemCondition-used" name="itemCondition" value="condition">Used
-            </label>
-            <label for="itemCondition-new">
-              <input type="radio" id="itemCondition-new" name="itemCondition" value="condition">New
-            </label>
-          </fieldset>
-          <fieldset>
-            <label for="itemPost-del">
-              <input type="radio" id="itemPost-del" name="itemPost" value="post">Post to address
-            </label>
-            <label for="itemPost-coll">
-              <input type="radio" id="itemPost-coll" name="itemPost" value="collect">Collect from a specified point
-            </label>
           </fieldset>
           <input type="submit" value="Sell">
         </form>
       </article>
-      <article class="home" id="item">
-        <h2>Similar Things People have sold</h2>
-        <p>PlaceHolder</p>
-        <p>PlaceHolder</p>
-        <p>PlaceHolder</p>
-        <p>PlaceHolder</p>
-        <p>PlaceHolder</p>
-      </article>
     </div>
+      <?php
+      if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+          $itemName = $conne->real_escape_string($_POST['itemName']);
+          $itemDesc = $conne->real_escape_string($_POST['itemDesc']);
+          $itemPrice = $conne->real_escape_string($_POST['itemPrice']);
+          $userId = 1; // Replace with actual user ID from session or authentication mechanism
+
+          $sql = "INSERT INTO Items (user_id, title, description, price) VALUES ('$userId', '$itemName', '$itemDesc', '$itemPrice')";
+
+          if ($conne->query($sql) === TRUE) {
+              echo "<p>Item listed successfully!</p>";
+          } else {
+              echo "<p>Error: " . $sql . "<br>" . $conne->error . "</p>";
+          }
+      }
+      ?>
   </main>
 </body>
 <footer></footer>

@@ -27,7 +27,7 @@
 </header>
 <body>
   <main>
-    <div id="wrapper" class="sellwrap">
+    <div id="wrapper" class="accwrap">
       <article>
         <h2 id="accountName">Account Name goes here</h2>
         <h3>Account Details</h3>

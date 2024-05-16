@@ -1,4 +1,4 @@
-<?php
+<?php include 'db_connect.php';
 session_start();
 ?>
 
@@ -16,7 +16,6 @@ session_start();
         <div class="topnav">
             <div class="active">
                 <h3>Market Place</h3>
-               <!-- <img  src="https://upload.wikimedia.org/wikipedia/en/5/52/Testcard_F.jpg" alt="">-->
             </div>
             <div id="links">
                 <a href="search.php">Buying</a>
@@ -32,36 +31,6 @@ session_start();
     </header>
     <body>
         <main>
-            <!--<div id="searchform">
-                <form>
-                    <fieldset>
-                        <label for="search">Search for an item</label>
-                        <input id="search" type="text">
-                        <input id="btn" type="submit" value="Search">
-                    </fieldset>
-                </form>
-            </div>
-            <div id="srchresult">
-                <h3 id="usrsearch">Search result(placeholder)</h3>what the user typed in goes here
-                <article>
-                    <h2>item name</h2>
-                    <p>Item description</p>
-                    <p>item price</p>
-                    <button>BUY</button>
-                </article>
-                <article>
-                    <h2>item name</h2>
-                    <p>Item description</p>
-                    <p>item price</p>
-                    <button>BUY</button>
-                </article>
-                <article>
-                    <h2>item name</h2>
-                    <p>Item description</p>
-                    <p>item price</p>
-                    <button>BUY</button>
-                </article>
-            </div>-->
             <div id="wrapper"><!-- display to none when search result active-->
                 <a class="home" href="search.php">
                     <article>
@@ -97,6 +66,3 @@ session_start();
     <footer>
     </footer>
 </html>
-<!--TODO: add sidebar menu
- implement Login Page
- >

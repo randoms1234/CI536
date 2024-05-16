@@ -1,0 +1,4 @@
+[15-May-2024 15:51:28 UTC] PHP Notice:  Undefined index: first_name in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 19
+[15-May-2024 15:51:28 UTC] PHP Notice:  Undefined index: last_name in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 20
+[15-May-2024 15:54:27 UTC] PHP Notice:  Undefined index: first_name in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 19
+[15-May-2024 15:54:27 UTC] PHP Notice:  Undefined index: last_name in /home/tw8dycdlza8z/public_html/php/signup_process.php on line 20
