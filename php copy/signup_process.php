@@ -5,7 +5,7 @@ session_start();
 $servername = "localhost"; // Replace with your MySQL server hostname
 $username = "cr910_Connor"; // Replace with your MySQL username
 $password = "Randoms123.."; // Replace with your MySQL password
-$database = "cr910_grouppj"; // Replace with the name of your MySQL database
+$database = "cr910_grouppj"; // Replace with the name of your MySQL database$conn = new mysqli($servername, $username, $password, $database);
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -70,5 +70,3 @@ function checkPassword($password) {
     return strlen($password) >= 8 && $uppercase && $lowercase && $number;
 }
 ?>
-
-

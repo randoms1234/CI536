@@ -1,4 +1,5 @@
 <?php include 'db_connect.php';
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -30,36 +31,6 @@
     </header>
     <body>
         <main>
-            <!--<div id="searchform">
-                <form>
-                    <fieldset>
-                        <label for="search">Search for an item</label>
-                        <input id="search" type="text">
-                        <input id="btn" type="submit" value="Search">
-                    </fieldset>
-                </form>
-            </div>
-            <div id="srchresult">
-                <h3 id="usrsearch">Search result(placeholder)</h3>what the user typed in goes here
-                <article>
-                    <h2>item name</h2>
-                    <p>Item description</p>
-                    <p>item price</p>
-                    <button>BUY</button>
-                </article>
-                <article>
-                    <h2>item name</h2>
-                    <p>Item description</p>
-                    <p>item price</p>
-                    <button>BUY</button>
-                </article>
-                <article>
-                    <h2>item name</h2>
-                    <p>Item description</p>
-                    <p>item price</p>
-                    <button>BUY</button>
-                </article>
-            </div>-->
             <div id="wrapper"><!-- display to none when search result active-->
                 <a class="home" href="search.php">
                     <article>

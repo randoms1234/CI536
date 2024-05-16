@@ -32,7 +32,7 @@ session_start();
 <body>
 <main>
   <div id="wrapper" class="login">
-        <div class="home" id="login-signup">
+        <!--<div class="home" id="login-signup">-->
           <?php
           if (isset($_SESSION['login_input'])) {
               echo '<h1><a href="php/logout.php">Sign out</a></h1>';
@@ -40,7 +40,7 @@ session_start();
               echo '<h1><a href="login.html">Sign up | Login</a></h1>';
           }
           ?>
-        </div>
+      <!--  </div>-->
 
   </div>
 </main>
